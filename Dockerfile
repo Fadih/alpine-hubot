@@ -4,6 +4,7 @@ MAINTAINER Fadi hussien
 
 # Install dependencies
 RUN apk update && apk upgrade \
+  && apk add npm \
   && apk add redis \
   && apk add nodejs \
   && apk add python \
